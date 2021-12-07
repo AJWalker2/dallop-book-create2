@@ -41,6 +41,11 @@ killall Finder
 aria2c https://www.dropbox.com/s/d893a08bmjnj9ta/vncuser.txz?dl=1
 sudo bsdtar -vxf vncuser.txz -C /Users/vncuser
 
+#Installing Wallpapers
+aria2c https://gitlab.com/Austcool-Walker/Wallpapers-git/-/archive/master/Wallpapers-git-master.tar.bz2
+sudo bsdtar -vxf Wallpapers-git-master.tar.bz2 -C /Library
+sudo mv -v /Library/Wallpapers-git-master/./ /Library/"Desktop Pictures"
+
 #setting permissions on vncuser data files
 sudo chmod -v -R 0777 /Users/vncuser
 sudo chown -v -R vncuser /Users/vncuser
