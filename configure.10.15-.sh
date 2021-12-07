@@ -44,7 +44,8 @@ sudo bsdtar -vxf vncuser.txz -C /Users/vncuser
 #Installing Wallpapers
 aria2c https://gitlab.com/Austcool-Walker/Wallpapers-git/-/archive/master/Wallpapers-git-master.tar.bz2
 sudo bsdtar -vxf Wallpapers-git-master.tar.bz2 -C /Library
-sudo mv -v /Library/Wallpapers-git-master/./ /Library/"Desktop Pictures"
+sudo cp -v -R /Library/Wallpapers-git-master/./ /Library/"Desktop Pictures"
+sudo rm -v -R /Library/Wallpapers-git-master/
 
 #setting permissions on vncuser data files
 sudo chmod -v -R 0777 /Users/vncuser
