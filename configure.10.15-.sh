@@ -38,7 +38,7 @@ defaults write com.apple.Finder AppleShowAllFiles true
 killall Finder
 
 #install vncuser data
-https://www.dropbox.com/s/d893a08bmjnj9ta/vncuser.txz?dl=1
+aria2c https://www.dropbox.com/s/d893a08bmjnj9ta/vncuser.txz?dl=1
 sudo bsdtar -vxf vncuser.txz -C /Users/vncuser
 
 #setting permissions on vncuser data files
