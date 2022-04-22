@@ -29,7 +29,10 @@ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resourc
 brew update
 
 #install ngrok
-brew install --cask ngrok vivaldi packages iterm2 motrix discord sublime-text jadx
+brew install --cask ngrok vivaldi packages iterm2 motrix discord sublime-text
+
+#install command line only programs
+brew install jadx
 
 #install BigSurUnicodeUpdate
 #sudo -S mount -uw / <<< $1
