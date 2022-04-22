@@ -26,7 +26,7 @@ sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resourc
 sudo /System/Library/CoreServices/RemoteManagement/ARDAgent.app/Contents/Resources/kickstart -activate
 
 #install ngrok
-brew install --cask ngrok vivaldi packages iterm2 motrix discord sublime-text
+brew install --cask ngrok vivaldi packages iterm2 motrix discord sublime-text jadx
 
 #install BigSurUnicodeUpdate
 #sudo -S mount -uw / <<< $1
